@@ -1,0 +1,8 @@
+I issue this command "docker-compose up", But I got an error:
+/bin/sh: ./configure:
+No such file or directory
+ERROR: Service 'db_gtm_1' failed to build: The command '/bin/sh -c ./configure --prefix ${PG_LIB}     &&     make     &&     cd contrib/pgxc_ctl     &&     make' returned a non-zero code: 127
+
+it seems that there is no file of configure
+
+thanks.
